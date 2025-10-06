@@ -1,0 +1,27 @@
+﻿{
+  "@@locale": "es",
+  "appTitle": "Aura",
+  "@appTitle": {
+    "description": "El título de la aplicación"
+  },
+  "chooseBackgroundColor": "Elige el color de fondo",
+  "@chooseBackgroundColor": {
+    "description": "Texto de información para el botón flotante para elegir el color de fondo"
+  },
+  "failedToSetBrightness": "Error al configurar el brillo",
+  "@failedToSetBrightness": {
+    "description": "Mensaje de error cuando falla la configuración del brillo"
+  },
+  "chooseMode": "Elegir modo",
+  "@chooseMode": {
+    "description": "Texto de información para el botón principal del menú FAB"
+  },
+  "auraMode": "Modo Aura",
+  "@auraMode": {
+    "description": "Etiqueta para cambiar al modo aura"
+  },
+  "lavaLampMode": "Modo Lámpara de Lava",
+  "@lavaLampMode": {
+    "description": "Etiqueta para cambiar al modo lámpara de lava"
+  }
+}

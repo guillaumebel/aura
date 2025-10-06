@@ -1,0 +1,27 @@
+﻿{
+  "@@locale": "fr",
+  "appTitle": "Aura",
+  "@appTitle": {
+    "description": "Le titre de l'application"
+  },
+  "chooseBackgroundColor": "Choisir la couleur d'arrière-plan",
+  "@chooseBackgroundColor": {
+    "description": "Texte d'info-bulle pour le bouton d'action flottant pour choisir la couleur d'arrière-plan"
+  },
+  "failedToSetBrightness": "Échec de la configuration de la luminosité",
+  "@failedToSetBrightness": {
+    "description": "Message d'erreur lorsque la configuration de la luminosité échoue"
+  },
+  "chooseMode": "Choisir le mode",
+  "@chooseMode": {
+    "description": "Texte d'info-bulle pour le bouton principal du menu FAB"
+  },
+  "auraMode": "Mode Aura",
+  "@auraMode": {
+    "description": "Libellé pour passer en mode aura"
+  },
+  "lavaLampMode": "Mode Lampe à Lave",
+  "@lavaLampMode": {
+    "description": "Libellé pour passer en mode lampe à lave"
+  }
+}

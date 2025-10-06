@@ -1,0 +1,27 @@
+﻿{
+  "@@locale": "en",
+  "appTitle": "Aura",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "chooseBackgroundColor": "Choose background color",
+  "@chooseBackgroundColor": {
+    "description": "Tooltip text for the floating action button to choose background color"
+  },
+  "failedToSetBrightness": "Failed to set brightness",
+  "@failedToSetBrightness": {
+    "description": "Error message when brightness setting fails"
+  },
+  "chooseMode": "Choose mode",
+  "@chooseMode": {
+    "description": "Tooltip text for the main FAB menu button"
+  },
+  "auraMode": "Aura Mode",
+  "@auraMode": {
+    "description": "Label for switching to aura mode"
+  },
+  "lavaLampMode": "Lava Lamp Mode",
+  "@lavaLampMode": {
+    "description": "Label for switching to lava lamp mode"
+  }
+}

@@ -16,11 +16,11 @@
   "@chooseMode": {
     "description": "Tooltip text for the main FAB menu button"
   },
-  "auraMode": "Aura Mode",
+  "auraMode": "Aura",
   "@auraMode": {
     "description": "Label for switching to aura mode"
   },
-  "lavaLampMode": "Lava Lamp Mode",
+  "lavaLampMode": "Lava lamp",
   "@lavaLampMode": {
     "description": "Label for switching to lava lamp mode"
   }

@@ -21,8 +21,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get chooseMode => 'Choose mode';
 
   @override
-  String get auraMode => 'Aura Mode';
+  String get auraMode => 'Aura';
 
   @override
-  String get lavaLampMode => 'Lava Lamp Mode';
+  String get lavaLampMode => 'Lava lamp';
 }

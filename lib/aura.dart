@@ -104,6 +104,7 @@ class _AuraPageState extends State<AuraPage> {
                 ],
               ),
             ),
+            Container(height: 18, color: Colors.black),
           ],
         ),
       ),

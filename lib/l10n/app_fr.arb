@@ -16,11 +16,11 @@
   "@chooseMode": {
     "description": "Texte d'info-bulle pour le bouton principal du menu FAB"
   },
-  "auraMode": "Mode Aura",
+  "auraMode": "Aura",
   "@auraMode": {
     "description": "Libellé pour passer en mode aura"
   },
-  "lavaLampMode": "Mode Lampe à Lave",
+  "lavaLampMode": "Lava lamp",
   "@lavaLampMode": {
     "description": "Libellé pour passer en mode lampe à lave"
   }

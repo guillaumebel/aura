@@ -127,13 +127,13 @@ abstract class AppLocalizations {
   /// Label for switching to aura mode
   ///
   /// In en, this message translates to:
-  /// **'Aura Mode'**
+  /// **'Aura'**
   String get auraMode;
 
   /// Label for switching to lava lamp mode
   ///
   /// In en, this message translates to:
-  /// **'Lava Lamp Mode'**
+  /// **'Lava lamp'**
   String get lavaLampMode;
 }
 

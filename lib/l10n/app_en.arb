@@ -1,27 +1,23 @@
-﻿{
+{
   "@@locale": "en",
   "appTitle": "Aura",
   "@appTitle": {
     "description": "The title of the application"
   },
-  "chooseBackgroundColor": "Choose background color",
-  "@chooseBackgroundColor": {
-    "description": "Tooltip text for the floating action button to choose background color"
+  "intensity": "Intensity",
+  "@intensity": {
+    "description": "Onboarding hint for the vertical drag gesture"
   },
-  "failedToSetBrightness": "Failed to set brightness",
-  "@failedToSetBrightness": {
-    "description": "Error message when brightness setting fails"
+  "warmth": "Warmth",
+  "@warmth": {
+    "description": "Onboarding hint for the horizontal drag gesture"
   },
-  "chooseMode": "Choose mode",
-  "@chooseMode": {
-    "description": "Tooltip text for the main FAB menu button"
+  "lightLabel": "Ambient light",
+  "@lightLabel": {
+    "description": "Screen reader label for the light"
   },
-  "auraMode": "Aura",
-  "@auraMode": {
-    "description": "Label for switching to aura mode"
-  },
-  "lavaLampMode": "Lava lamp",
-  "@lavaLampMode": {
-    "description": "Label for switching to lava lamp mode"
+  "gestureHint": "Swipe up or down for intensity, left or right for warmth. Double tap to reset.",
+  "@gestureHint": {
+    "description": "Screen reader hint describing the gestures"
   }
 }

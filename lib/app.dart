@@ -1,4 +1,4 @@
-﻿import 'package:aura/main_page.dart';
+import 'package:aura/aura.dart';
 import 'package:aura/utils/context_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -11,6 +11,7 @@ class AuraApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       onGenerateTitle: (context) => context.localizations.appTitle,
       localizationsDelegates: const [
         AppLocalizations.delegate,
@@ -20,9 +21,13 @@ class AuraApp extends StatelessWidget {
       ],
       supportedLocales: const [Locale('en'), Locale('es'), Locale('fr')],
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color(0xFFFFD9A8),
+          brightness: Brightness.light,
+        ),
+        scaffoldBackgroundColor: Colors.black,
       ),
-      home: const MainPage(),
+      home: const AuraPage(),
     );
   }
 }

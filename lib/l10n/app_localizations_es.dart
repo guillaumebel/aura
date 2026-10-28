@@ -12,17 +12,15 @@ class AppLocalizationsEs extends AppLocalizations {
   String get appTitle => 'Aura';
 
   @override
-  String get chooseBackgroundColor => 'Elige el color de fondo';
+  String get intensity => 'Intensidad';
 
   @override
-  String get failedToSetBrightness => 'Error al configurar el brillo';
+  String get warmth => 'Calidez';
 
   @override
-  String get chooseMode => 'Elegir modo';
+  String get lightLabel => 'Luz ambiental';
 
   @override
-  String get auraMode => 'Modo Aura';
-
-  @override
-  String get lavaLampMode => 'Modo Lámpara de Lava';
+  String get gestureHint =>
+      'Desliza hacia arriba o abajo para la intensidad, a la izquierda o derecha para la calidez. Toca dos veces para restablecer.';
 }

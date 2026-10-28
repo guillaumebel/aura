@@ -106,35 +106,29 @@ abstract class AppLocalizations {
   /// **'Aura'**
   String get appTitle;
 
-  /// Tooltip text for the floating action button to choose background color
+  /// Onboarding hint for the vertical drag gesture
   ///
   /// In en, this message translates to:
-  /// **'Choose background color'**
-  String get chooseBackgroundColor;
+  /// **'Intensity'**
+  String get intensity;
 
-  /// Error message when brightness setting fails
+  /// Onboarding hint for the horizontal drag gesture
   ///
   /// In en, this message translates to:
-  /// **'Failed to set brightness'**
-  String get failedToSetBrightness;
+  /// **'Warmth'**
+  String get warmth;
 
-  /// Tooltip text for the main FAB menu button
+  /// Screen reader label for the light
   ///
   /// In en, this message translates to:
-  /// **'Choose mode'**
-  String get chooseMode;
+  /// **'Ambient light'**
+  String get lightLabel;
 
-  /// Label for switching to aura mode
+  /// Screen reader hint describing the gestures
   ///
   /// In en, this message translates to:
-  /// **'Aura'**
-  String get auraMode;
-
-  /// Label for switching to lava lamp mode
-  ///
-  /// In en, this message translates to:
-  /// **'Lava lamp'**
-  String get lavaLampMode;
+  /// **'Swipe up or down for intensity, left or right for warmth. Double tap to reset.'**
+  String get gestureHint;
 }
 
 class _AppLocalizationsDelegate

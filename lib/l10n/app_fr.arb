@@ -1,27 +1,23 @@
-﻿{
+{
   "@@locale": "fr",
   "appTitle": "Aura",
   "@appTitle": {
     "description": "Le titre de l'application"
   },
-  "chooseBackgroundColor": "Choisir la couleur d'arrière-plan",
-  "@chooseBackgroundColor": {
-    "description": "Texte d'info-bulle pour le bouton d'action flottant pour choisir la couleur d'arrière-plan"
+  "intensity": "Intensité",
+  "@intensity": {
+    "description": "Indice d'accueil pour le glissement vertical"
   },
-  "failedToSetBrightness": "Échec de la configuration de la luminosité",
-  "@failedToSetBrightness": {
-    "description": "Message d'erreur lorsque la configuration de la luminosité échoue"
+  "warmth": "Chaleur",
+  "@warmth": {
+    "description": "Indice d'accueil pour le glissement horizontal"
   },
-  "chooseMode": "Choisir le mode",
-  "@chooseMode": {
-    "description": "Texte d'info-bulle pour le bouton principal du menu FAB"
+  "lightLabel": "Lumière ambiante",
+  "@lightLabel": {
+    "description": "Libellé de la lumière pour le lecteur d'écran"
   },
-  "auraMode": "Aura",
-  "@auraMode": {
-    "description": "Libellé pour passer en mode aura"
-  },
-  "lavaLampMode": "Lava lamp",
-  "@lavaLampMode": {
-    "description": "Libellé pour passer en mode lampe à lave"
+  "gestureHint": "Glissez vers le haut ou le bas pour l'intensité, vers la gauche ou la droite pour la chaleur. Touchez deux fois pour réinitialiser.",
+  "@gestureHint": {
+    "description": "Description des gestes pour le lecteur d'écran"
   }
 }

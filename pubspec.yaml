@@ -12,9 +12,8 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.8
   screen_brightness: ^2.1.7
-  flex_color_picker: ^3.7.1
-  flutter_animate: ^4.5.2
   keep_screen_on: ^5.0.0
+  shared_preferences: ^2.5.3
 
 dev_dependencies:
   flutter_test:

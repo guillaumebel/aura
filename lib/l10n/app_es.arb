@@ -1,27 +1,23 @@
-﻿{
+{
   "@@locale": "es",
   "appTitle": "Aura",
   "@appTitle": {
     "description": "El título de la aplicación"
   },
-  "chooseBackgroundColor": "Elige el color de fondo",
-  "@chooseBackgroundColor": {
-    "description": "Texto de información para el botón flotante para elegir el color de fondo"
+  "intensity": "Intensidad",
+  "@intensity": {
+    "description": "Indicación inicial para el deslizamiento vertical"
   },
-  "failedToSetBrightness": "Error al configurar el brillo",
-  "@failedToSetBrightness": {
-    "description": "Mensaje de error cuando falla la configuración del brillo"
+  "warmth": "Calidez",
+  "@warmth": {
+    "description": "Indicación inicial para el deslizamiento horizontal"
   },
-  "chooseMode": "Elegir modo",
-  "@chooseMode": {
-    "description": "Texto de información para el botón principal del menú FAB"
+  "lightLabel": "Luz ambiental",
+  "@lightLabel": {
+    "description": "Etiqueta de la luz para el lector de pantalla"
   },
-  "auraMode": "Modo Aura",
-  "@auraMode": {
-    "description": "Etiqueta para cambiar al modo aura"
-  },
-  "lavaLampMode": "Modo Lámpara de Lava",
-  "@lavaLampMode": {
-    "description": "Etiqueta para cambiar al modo lámpara de lava"
+  "gestureHint": "Desliza hacia arriba o abajo para la intensidad, a la izquierda o derecha para la calidez. Toca dos veces para restablecer.",
+  "@gestureHint": {
+    "description": "Descripción de los gestos para el lector de pantalla"
   }
 }

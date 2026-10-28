@@ -6,55 +6,43 @@ A beautiful Flutter application that brings ambient lighting to your device with
 
 ## Features 🎯
 
-### 🌟 Dual Visual Modes
+Aura turns your screen into a soft ambient light. There are no visible controls: the light takes the whole screen and everything is done with gestures.
 
-- **Aura Mode**: Control screen brightness and background color for ambient lighting
-- **Lava Lamp Mode**: Mesmerizing animated colorful blob visualization
+| Gesture | Effect |
+| --- | --- |
+| Swipe up / down | Intensity (screen brightness). Below ~15 % the light dims further into a night light |
+| Swipe left / right | Warmth, from 1800 K candle amber to 8000 K cool white |
+| Double tap | Back to neutral white at full intensity |
 
-### 🎨 Interactive Controls
+A thin indicator and the current value appear only while you swipe, then fade away. The gesture hints are shown once, on first launch. Your last intensity and warmth are remembered.
 
-- **Brightness Slider**: Adjust screen brightness from 0-100%
-- **Color Picker**: Choose from a wide range of background colors
-- Easy mode switching with animated floating action button menu
-
-## Screenshots 📱
-
-> Note: Add screenshots of both modes here
+The app runs in immersive full screen (status and navigation bars hidden) and keeps the screen awake while it is open.
 
 ## Technical Details 🔧
 
 ### Built With
 
-- **Flutter**: Cross-platform mobile framework
-- **Dart**: Programming language
-- **Material Design**: UI components and theming
+- **Flutter** / **Dart**
 
 ### Key Dependencies
 
-- `screen_brightness`: Control device screen brightness
-- `flex_color_picker`: Advanced color picking functionality
-- `flutter_localizations`: Internationalization support
+- `screen_brightness`: control the device screen brightness
+- `keep_screen_on`: keep the light on while the app is open
+- `shared_preferences`: remember the last settings and the onboarding
+- `flutter_localizations`: English, French and Spanish
 
-## Usage Guide 📖
+## Building 🛠️
 
-### Mode Switching
+```sh
+flutter pub get
+flutter build apk --release
+```
 
-1. Tap the **menu icon** (☰) in the floating action button
-2. Select from the animated menu:
-   - **☀️ Aura Mode**: For ambient lighting control
-   - **🫧 Lava Lamp Mode**: For animated visual effects
-3. Tap outside the menu or the close button to close
+The APK is written to `build/app/outputs/flutter-apk/app-release.apk`.
 
-### Aura Mode
+On Windows, `build_apk.bat` runs the same two steps and writes the output to `build_apk.log`. It expects the Flutter SDK at `C:\sdk\flutter` and the project at `D:\aura`; edit the paths if yours differ.
 
-- **Brightness Control**: Use the slider to adjust screen brightness (0-100%)
-- **Color Selection**: Tap the color lens icon to open the color picker
-
-### Lava Lamp Mode
-
-- **Automatic Animation**: Enjoy the self-running colorful blob animation
-- **Smooth Transitions**: 15-second animation cycles with reverse effects
-- **Dark Background**: Optimized for low-light viewing
+Run the checks with `flutter analyze` and `flutter test`.
 
 ## Contributing 🤝
 

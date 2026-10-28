@@ -40,7 +40,7 @@ flutter build apk --release
 
 The APK is written to `build/app/outputs/flutter-apk/app-release.apk`.
 
-On Windows, `build_apk.bat` runs the same two steps and writes the output to `build_apk.log`. It expects the Flutter SDK at `C:\sdk\flutter` and the project at `D:\aura`; edit the paths if yours differ.
+On Windows, `build_apk.bat` runs the same two steps and writes the output to `build_apk.log`. It runs from its own folder and uses `flutter` from your `PATH`, or `%FLUTTER_ROOT%\bin\flutter.bat` if `FLUTTER_ROOT` is set.
 
 Run the checks with `flutter analyze` and `flutter test`.
 

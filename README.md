@@ -16,6 +16,8 @@ Aura turns your screen into a soft ambient light. There are no visible controls:
 
 A thin indicator and the current value appear only while you swipe, then fade away. The gesture hints are shown once, on first launch. Your last intensity and warmth are remembered.
 
+On Android 7+, a Quick Settings tile ("Aura light") opens the light straight from the notification shade: add it from the Quick Settings editor.
+
 The app runs in immersive full screen (status and navigation bars hidden) and keeps the screen awake while it is open.
 
 ## Technical Details 🔧
